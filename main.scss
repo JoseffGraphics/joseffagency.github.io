@@ -1,0 +1,415 @@
+// Own Colors Project --
+$BluePrincipal: #222831;
+$BlueSeconde: #393e46;
+$Redy: #e84a5f;
+$Greyy: #eeeeee;
+$BlueThird: #7ac7c4;
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    .navbar-brand {
+        margin-left: 30px;
+        color: $BluePrincipal !important;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        span {
+            font-weight: 300;
+            color: $Redy !important;
+        }
+    }
+
+    .navbar-collapse ul {
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-right: 50px;
+
+        a {
+            color: $BluePrincipal !important;
+        }
+
+        a:hover {
+            color: $Redy !important;
+        }
+    }
+}
+
+#header {
+    margin: 0 auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(34, 40, 49, 0.5)), url("img/pexels-photo.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+            color: $Greyy;
+            padding-bottom: 50px;
+
+            span {
+                color: $Redy;
+            }
+        }
+
+        button {
+            font-weight: 300 !important;
+            font-size: 12px;
+            color: $Greyy;
+            padding: 10px 20px 10px 20px;
+            background: $Redy !important;
+            border: none !important;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        button:hover {
+            background-color: $BlueSeconde !important;
+            color: $Redy !important;
+        }
+    }
+}
+
+#about {
+    .title {
+        padding: 0;
+        margin: 0;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: $Redy;
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    }
+
+    .content {
+        font-size: 12px;
+        color: $BlueSeconde;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+}
+
+#services {
+    padding: 0;
+    margin: 0;
+
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: $Redy;
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    }
+
+    .content {
+        padding: 0 10px;
+
+        img {
+            width: 60px;
+        }
+
+        h6 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 10px;
+            padding: 10px 0 0 0;
+            color: $BlueSeconde;
+        }
+
+        h2 {
+            color: $BluePrincipal;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 25px;
+            padding: 0 auto;
+            margin: 0 auto;
+        }
+
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            color: $BlueSeconde;
+            font-size: 10px;
+            font-weight: 300;
+            padding: 20px 0 0 0;
+        }
+
+        a {
+            p {
+                color: $BlueThird;
+                font-size: 10px;
+                font-weight: 300;
+                text-decoration: underline;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+#technologies {
+    text-align: center;
+
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-weight: 300;
+            color: $BlueSeconde;
+            font-size: 12px;
+            text-transform: uppercase;
+
+            span {
+                color: $Redy;
+            }
+        }
+    }
+
+    .content {
+        text-align: center;
+        padding: 20px 0;
+
+        img {
+            width: 60px;
+        }
+
+        h2 {
+            padding: 10px 0 20px 0;
+            color: $BlueSeconde;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        h2:hover {
+            font-weight: 400;
+        }
+    }
+}
+
+#work {
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-weight: 300;
+            color: $BlueSeconde;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $Redy;
+        }
+    }
+
+    .content {
+        img {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            padding: 30px;
+        }
+
+        h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: $BlueSeconde;
+            padding-bottom: 20px;
+
+            span {
+                color: $Redy;
+                font-weight: 400;
+            }
+        }
+
+        button {
+            font-weight: 300 !important;
+            font-size: 12px;
+            color: $Greyy;
+            padding: 10px 20px 10px 20px;
+            background: $Redy !important;
+            border: none !important;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        button:hover {
+            background-color: $BlueSeconde !important;
+            color: $Redy !important;
+        }
+    }
+}
+
+#testimonials {
+    padding-bottom: 90px;
+
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-weight: 300;
+            color: $BlueSeconde;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $Redy;
+        }
+    }
+
+    .card-deck {
+        .card {
+            img {
+                width: 80%;
+                padding: 10px 0;
+            }
+
+            h5 {
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $BluePrincipal;
+                font-weight: 700;
+            }
+
+            p {
+                color: $BlueSeconde;
+                font-size: 10px;
+                text-transform: uppercase;
+                font-weight: 300;
+                width: 100%;
+                font-style: italic;
+            }
+
+            small {
+                color: $Redy !important;
+            }
+        }
+    }
+}
+
+#contact {
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $BluePrincipal;
+            padding: 90px 0 0 0;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 0 0 30px 0;
+            margin: 0;
+            font-weight: 300;
+            color: $BlueSeconde;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $Redy;
+        }
+    }
+
+    .info {
+        p {
+            padding-top: 30px;
+
+            a {
+                color: $BlueSeconde;
+                font-size: 12px;
+                font-weight: 300;
+                padding: 40px 0 20px 0;
+                text-transform: uppercase;
+                transition: .5s;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: $Redy;
+            }
+
+            span {
+                color: $Redy;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+// ANIMATION CSS //
+
+@media (max-width: 576px) {}
